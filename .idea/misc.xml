@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SpringBoot-helloword/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-profiles/pom.xml" />
       </list>
     </option>
   </component>
