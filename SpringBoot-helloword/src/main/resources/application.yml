@@ -1,0 +1,27 @@
+server:
+  port: 8082
+
+name: abc
+
+#对象
+person:
+  name: zhangsan #${name}
+  age: 20
+  address:
+    - beijing
+    - shanghai
+
+#对象行内写法
+person1: {name: zhangsan,age: 20}
+
+#数组
+address:
+  - beijing
+  - shanghai
+
+#数组的行内写法
+address1: [beijing,shanghai]
+
+#纯量
+msg1: 'hello \n world' #不会识别转义字符，原样输出
+msg2: "hello \n world" #会识别转义字符
