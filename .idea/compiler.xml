@@ -10,6 +10,7 @@
         <module name="SpringBoot-config" />
         <module name="SpringBoot-redis" />
         <module name="SpringBoot-helloword" />
+        <module name="SptringBoot-mybaits" />
         <module name="SpringBoot-profiles" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="SpringBoot-profiles" target="1.8" />
       <module name="SpringBoot-redis" target="1.8" />
       <module name="SpringBoot-test" target="1.8" />
+      <module name="SptringBoot-mybaits" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +31,7 @@
       <module name="SpringBoot-profiles" options="-parameters" />
       <module name="SpringBoot-redis" options="-parameters" />
       <module name="SpringBoot-test" options="-parameters" />
+      <module name="SptringBoot-mybaits" options="-parameters" />
       <module name="config" options="-parameters" />
     </option>
   </component>
