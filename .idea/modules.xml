@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-helloword/SpringBoot-helloword.iml" filepath="$PROJECT_DIR$/SpringBoot-helloword/SpringBoot-helloword.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" filepath="$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-test/SpringBoot-test.iml" filepath="$PROJECT_DIR$/SpringBoot-test/SpringBoot-test.iml" />
     </modules>
   </component>
 </project>

@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/SpringBoot-helloword/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-config/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-test/pom.xml" />
       </list>
     </option>
   </component>
