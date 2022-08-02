@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot-test" />
         <module name="SpringBoot-config" />
-        <module name="SpringBoot-redis" />
         <module name="SpringBoot-helloword" />
         <module name="SptringBoot-mybaits" />
+        <module name="SpringBoot-redis" />
         <module name="SpringBoot-profiles" />
+        <module name="SpringBoot-condition" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
+      <module name="SpringBoot-condition" target="1.8" />
       <module name="SpringBoot-config" target="1.8" />
       <module name="SpringBoot-helloword" target="1.8" />
       <module name="SpringBoot-profiles" target="1.8" />
@@ -26,6 +28,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-condition" options="-parameters" />
       <module name="SpringBoot-config" options="-parameters" />
       <module name="SpringBoot-helloword" options="-parameters" />
       <module name="SpringBoot-profiles" options="-parameters" />
