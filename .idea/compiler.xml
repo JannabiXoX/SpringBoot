@@ -10,6 +10,8 @@
         <module name="SpringBoot-config" />
         <module name="SpringBoot-helloword" />
         <module name="SptringBoot-mybaits" />
+        <module name="SpringBoot-enable" />
+        <module name="SpringBoot-enable-other" />
         <module name="SpringBoot-redis" />
         <module name="SpringBoot-profiles" />
         <module name="SpringBoot-condition" />
@@ -19,6 +21,8 @@
       <module name="config" target="1.8" />
       <module name="SpringBoot-condition" target="1.8" />
       <module name="SpringBoot-config" target="1.8" />
+      <module name="SpringBoot-enable" target="1.8" />
+      <module name="SpringBoot-enable-other" target="1.8" />
       <module name="SpringBoot-helloword" target="1.8" />
       <module name="SpringBoot-profiles" target="1.8" />
       <module name="SpringBoot-redis" target="1.8" />
@@ -30,6 +34,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBoot-condition" options="-parameters" />
       <module name="SpringBoot-config" options="-parameters" />
+      <module name="SpringBoot-enable" options="-parameters" />
+      <module name="SpringBoot-enable-other" options="-parameters" />
       <module name="SpringBoot-helloword" options="-parameters" />
       <module name="SpringBoot-profiles" options="-parameters" />
       <module name="SpringBoot-redis" options="-parameters" />

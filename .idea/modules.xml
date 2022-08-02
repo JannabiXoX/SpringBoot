@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" filepath="$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" filepath="$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" filepath="$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-helloword/SpringBoot-helloword.iml" filepath="$PROJECT_DIR$/SpringBoot-helloword/SpringBoot-helloword.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" filepath="$PROJECT_DIR$/SpringBoot-profiles/SpringBoot-profiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-redis/SpringBoot-redis.iml" filepath="$PROJECT_DIR$/SpringBoot-redis/SpringBoot-redis.iml" />

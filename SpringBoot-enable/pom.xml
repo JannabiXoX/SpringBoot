@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>SpringBoot-condition</artifactId>
+    <artifactId>SpringBoot-enable</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringBoot-condition</name>
-    <description>SpringBoot-condition</description>
+    <name>SpringBoot-enable</name>
+    <description>SpringBoot-enable</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -29,35 +29,10 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <groupId>com.example</groupId>
+            <artifactId>SpringBoot-enable-other</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-<!--            排除tomcat依赖-->
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-<!--        引入jetty的依赖-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jetty</artifactId>
-        </dependency>
-
-
-
     </dependencies>
 
     <build>
