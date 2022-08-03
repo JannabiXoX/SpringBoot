@@ -9,8 +9,10 @@ import com.example.domain.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Import;
+import redis.clients.jedis.Jedis;
 
 import java.util.Map;
 
@@ -29,7 +31,7 @@ import java.util.Map;
  * 3.导入ImportSelector的实现类
  * 4.ImportBeanDefinitionRegistrar实现类
  */
-@SpringBootApplication
+
 //@ComponentScan("com.example.config")
 //@Import(UserConfig.class)
 //@EnableUser
@@ -37,7 +39,8 @@ import java.util.Map;
 //@Import(User.class)
 //@Import(UserConfig.class)
 //@Import(MyImportSelector.class)
-@Import(MyImportBeanDefinitionRegistrar.class )
+//@Import(MyImportBeanDefinitionRegistrar.class )
+@SpringBootApplication
 public class SpringBootEnableApplication {
 
     public static void main(String[] args) {
@@ -47,14 +50,24 @@ public class SpringBootEnableApplication {
         //获取Bean
 //        Object user = context.getBean("user");
 //        System.out.println(user);
-        User user = context.getBean(User.class);
-        System.out.println(user);
-
-        Role role = context.getBean(Role.class);
-        System.out.println(role);
+//        User user = context.getBean(User.class);
+//        System.out.println(user);
+//
+//        Role role = context.getBean(Role.class);
+//        System.out.println(role);
 
 //        Map<String,User> map = context.getBeansOfType(User.class);
 //        System.out.println(map);
+        Jedis jedis = context.getBean(Jedis.class);
+        System.out.println(jedis);
+
+        jedis.set("name","itcast");
+        String name = jedis.get("name");
+        System.out.println(name);
     }
 
+    @Bean
+    public Jedis jedis(){
+        return new Jedis("localhost",6379);
+    }
 }
