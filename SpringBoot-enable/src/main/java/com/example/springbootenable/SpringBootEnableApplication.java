@@ -62,8 +62,8 @@ public class SpringBootEnableApplication {
         System.out.println(jedis);
 
         jedis.set("name","itcast");
-        String name = jedis.get("name");
-        System.out.println(name);
+        String name1 = jedis.get("name");
+        System.out.println(name1);
     }
 
     @Bean
