@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot-test" />
         <module name="SpringBoot-config" />
+        <module name="SpringBoot-listener" />
         <module name="SpringBoot-helloword" />
         <module name="SptringBoot-mybaits" />
         <module name="SpringBoot-enable" />
@@ -28,6 +29,7 @@
       <module name="SpringBoot-enable" target="1.8" />
       <module name="SpringBoot-enable-other" target="1.8" />
       <module name="SpringBoot-helloword" target="1.8" />
+      <module name="SpringBoot-listener" target="1.8" />
       <module name="SpringBoot-profiles" target="1.8" />
       <module name="SpringBoot-redis" target="1.8" />
       <module name="SpringBoot-test" target="1.8" />
@@ -41,6 +43,7 @@
       <module name="SpringBoot-enable" options="-parameters" />
       <module name="SpringBoot-enable-other" options="-parameters" />
       <module name="SpringBoot-helloword" options="-parameters" />
+      <module name="SpringBoot-listener" options="-parameters" />
       <module name="SpringBoot-profiles" options="-parameters" />
       <module name="SpringBoot-redis" options="-parameters" />
       <module name="SpringBoot-test" options="-parameters" />
