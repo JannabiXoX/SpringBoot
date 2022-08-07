@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/redis-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-listener/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-admin-client/pom.xml" />
       </list>
     </option>
   </component>

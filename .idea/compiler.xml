@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot-config" />
         <module name="SpringBoot-helloword" />
+        <module name="SpringBoot-admin-server" />
         <module name="redis-spring-boot-starter" />
+        <module name="SpringBoot-admin-client" />
         <module name="SpringBoot-profiles" />
         <module name="SpringBoot-test" />
         <module name="SpringBoot-listener" />
@@ -26,6 +28,8 @@
       <module name="redis-spring-boot-autoconfigure" target="1.8" />
       <module name="redis-spring-boot-starter" target="1.8" />
       <module name="SpringBoot-actuator" target="1.8" />
+      <module name="SpringBoot-admin-client" target="1.8" />
+      <module name="SpringBoot-admin-server" target="1.8" />
       <module name="SpringBoot-condition" target="1.8" />
       <module name="SpringBoot-config" target="1.8" />
       <module name="SpringBoot-enable" target="1.8" />
@@ -41,6 +45,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBoot-actuator" options="-parameters" />
+      <module name="SpringBoot-admin-client" options="-parameters" />
+      <module name="SpringBoot-admin-server" options="-parameters" />
       <module name="SpringBoot-condition" options="-parameters" />
       <module name="SpringBoot-config" options="-parameters" />
       <module name="SpringBoot-enable" options="-parameters" />
