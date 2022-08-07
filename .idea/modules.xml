@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-actuator/SpringBoot-actuator.iml" filepath="$PROJECT_DIR$/SpringBoot-actuator/SpringBoot-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" filepath="$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" filepath="$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" />
