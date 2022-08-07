@@ -9,12 +9,14 @@
         <module name="SpringBoot-config" />
         <module name="SpringBoot-helloword" />
         <module name="SpringBoot-admin-server" />
+        <module name="SpringBoot-deploy-jar" />
         <module name="redis-spring-boot-starter" />
         <module name="SpringBoot-admin-client" />
         <module name="SpringBoot-profiles" />
         <module name="SpringBoot-test" />
         <module name="SpringBoot-listener" />
         <module name="SptringBoot-mybaits" />
+        <module name="SpringBoot-deploy-war" />
         <module name="SpringBoot-enable" />
         <module name="SpringBoot-enable-other" />
         <module name="SpringBoot-actuator" />
@@ -32,6 +34,8 @@
       <module name="SpringBoot-admin-server" target="1.8" />
       <module name="SpringBoot-condition" target="1.8" />
       <module name="SpringBoot-config" target="1.8" />
+      <module name="SpringBoot-deploy-jar" target="1.8" />
+      <module name="SpringBoot-deploy-war" target="1.8" />
       <module name="SpringBoot-enable" target="1.8" />
       <module name="SpringBoot-enable-other" target="1.8" />
       <module name="SpringBoot-helloword" target="1.8" />
@@ -49,6 +53,8 @@
       <module name="SpringBoot-admin-server" options="-parameters" />
       <module name="SpringBoot-condition" options="-parameters" />
       <module name="SpringBoot-config" options="-parameters" />
+      <module name="SpringBoot-deploy-jar" options="-parameters" />
+      <module name="SpringBoot-deploy-war" options="-parameters" />
       <module name="SpringBoot-enable" options="-parameters" />
       <module name="SpringBoot-enable-other" options="-parameters" />
       <module name="SpringBoot-helloword" options="-parameters" />

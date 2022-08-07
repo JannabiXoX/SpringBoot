@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-admin-server/SpringBoot-admin-server.iml" filepath="$PROJECT_DIR$/SpringBoot-admin-server/SpringBoot-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" filepath="$PROJECT_DIR$/SpringBoot-condition/SpringBoot-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" filepath="$PROJECT_DIR$/SpringBoot-config/SpringBoot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-deploy-jar/SpringBoot-deploy-jar.iml" filepath="$PROJECT_DIR$/SpringBoot-deploy-jar/SpringBoot-deploy-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-deploy-war/SpringBoot-deploy-war.iml" filepath="$PROJECT_DIR$/SpringBoot-deploy-war/SpringBoot-deploy-war.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" filepath="$PROJECT_DIR$/SpringBoot-enable/SpringBoot-enable.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" filepath="$PROJECT_DIR$/SpringBoot-enable-other/SpringBoot-enable-other.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-helloword/SpringBoot-helloword.iml" filepath="$PROJECT_DIR$/SpringBoot-helloword/SpringBoot-helloword.iml" />
