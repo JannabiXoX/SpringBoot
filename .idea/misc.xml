@@ -23,10 +23,12 @@
         <option value="$PROJECT_DIR$/SpringBoot-admin-client/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-deploy-jar/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-deploy-war/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-01-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-02-quickstart/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">

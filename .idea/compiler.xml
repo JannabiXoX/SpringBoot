@@ -9,6 +9,7 @@
         <module name="SpringBoot-config" />
         <module name="SpringBoot-helloword" />
         <module name="SpringBoot-admin-server" />
+        <module name="springboot-01-01-quickstart" />
         <module name="SpringBoot-deploy-jar" />
         <module name="redis-spring-boot-starter" />
         <module name="SpringBoot-admin-client" />
@@ -17,6 +18,7 @@
         <module name="SpringBoot-listener" />
         <module name="SptringBoot-mybaits" />
         <module name="SpringBoot-deploy-war" />
+        <module name="springboot-01-02-quickstart" />
         <module name="SpringBoot-enable" />
         <module name="SpringBoot-enable-other" />
         <module name="SpringBoot-actuator" />
@@ -29,6 +31,8 @@
       <module name="config" target="1.8" />
       <module name="redis-spring-boot-autoconfigure" target="1.8" />
       <module name="redis-spring-boot-starter" target="1.8" />
+      <module name="springboot-01-01-quickstart" target="1.8" />
+      <module name="springboot-01-02-quickstart" target="1.8" />
       <module name="SpringBoot-actuator" target="1.8" />
       <module name="SpringBoot-admin-client" target="1.8" />
       <module name="SpringBoot-admin-server" target="1.8" />
@@ -66,6 +70,8 @@
       <module name="config" options="-parameters" />
       <module name="redis-spring-boot-autoconfigure" options="-parameters" />
       <module name="redis-spring-boot-starter" options="-parameters" />
+      <module name="springboot-01-01-quickstart" options="-parameters" />
+      <module name="springboot-01-02-quickstart" options="-parameters" />
     </option>
   </component>
 </project>
