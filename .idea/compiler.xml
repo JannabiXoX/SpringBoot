@@ -11,6 +11,7 @@
         <module name="SpringBoot-admin-server" />
         <module name="springboot-01-01-quickstart" />
         <module name="SpringBoot-deploy-jar" />
+        <module name="springboot-01-03-quickstart" />
         <module name="redis-spring-boot-starter" />
         <module name="SpringBoot-admin-client" />
         <module name="SpringBoot-profiles" />
@@ -33,6 +34,7 @@
       <module name="redis-spring-boot-starter" target="1.8" />
       <module name="springboot-01-01-quickstart" target="1.8" />
       <module name="springboot-01-02-quickstart" target="1.8" />
+      <module name="springboot-01-03-quickstart" target="1.8" />
       <module name="SpringBoot-actuator" target="1.8" />
       <module name="SpringBoot-admin-client" target="1.8" />
       <module name="SpringBoot-admin-server" target="1.8" />
